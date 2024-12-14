@@ -1,0 +1,26 @@
+{
+  "name": "playwright-baseline-tests",
+  "version": "1.0.0",
+  "description": "A collection of basic sanity checks every site needs: verifying working links, screenshot-based consistency, and error-free pages.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StaelTchinda/playwright-baseline-tests.git"
+  },
+  "keywords": [
+    "playwright",
+    "e2e",
+    "test",
+    "website",
+    "testing"
+  ],
+  "author": "Staël Tchinda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StaelTchinda/playwright-baseline-tests/issues"
+  },
+  "homepage": "https://github.com/StaelTchinda/playwright-baseline-tests#readme"
+}

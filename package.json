@@ -4,7 +4,7 @@
   "description": "A collection of basic sanity checks every site needs: verifying working links, screenshot-based consistency, and error-free pages.",
   "main": "index.ts",
   "scripts": {
-    "test": "npx playwright test"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,17 @@
   "homepage": "https://github.com/StaelTchinda/playwright-baseline-tests#readme",
   "devDependencies": {
     "@playwright/test": "^1.49.1",
-    "@types/node": "^22.10.2"
+    "@types/chai": "^5.0.1",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^22.10.2",
+    "@types/sinon": "^17.0.3",
+    "chai": "^5.1.2",
+    "mocha": "^11.0.1",
+    "sinon": "^19.0.2",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0"
+  },
+  "dependencies": {
+    "typescript": "^5.7.2"
   }
 }
